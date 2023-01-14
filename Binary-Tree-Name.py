@@ -132,3 +132,8 @@ if __name__ == '__main__':
     print("After deleting letter R. The Updated List are: ", name_tree.in_order_traversal())
     print("After deleting a Letter, the Minimum value is now :", name_tree.find_min())
     print("After deleting a Letter, the Maximum value is now :", name_tree.find_max())
+    print("-" * 60)
+    print(" " * 15 + "BINARY TREE OF MY CHOSEN NUMBER")
+    print("-" * 60)
+    print("My Chosen Number: ", numbers)
+    print("The Ascending order of My Chosen Number: ", numbers_tree.in_order_traversal())
