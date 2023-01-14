@@ -76,3 +76,8 @@ class BinarySearchTreeNode:
         if self.left is None:  # setting if there's no element in the left then it is the minimum
             return self.data
         return self.left.find_min()
+
+    def delete(self, val):
+        if val < self.data:  # finding the value if the value is less than the data
+            if self.left:
+                self.left = self.left.delete(val)  # record the deleted value
