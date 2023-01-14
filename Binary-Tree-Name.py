@@ -72,3 +72,7 @@ class BinarySearchTreeNode:
             return self.data
         return self.right.find_max()
 
+    def find_min(self):  # finding minimum element which is in the left
+        if self.left is None:  # setting if there's no element in the left then it is the minimum
+            return self.data
+        return self.left.find_min()
