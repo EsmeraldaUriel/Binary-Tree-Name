@@ -130,3 +130,5 @@ if __name__ == '__main__':
     print("After deleting letter A. The Updated List are: ", name_tree.in_order_traversal())
     name_tree.delete("R")
     print("After deleting letter R. The Updated List are: ", name_tree.in_order_traversal())
+    print("After deleting a Letter, the Minimum value is now :", name_tree.find_min())
+    print("After deleting a Letter, the Maximum value is now :", name_tree.find_max())
