@@ -107,3 +107,8 @@ def build_tree(elements):  # helps to take the elements
 
     return root
 
+
+if __name__ == '__main__':
+    name = ["U", "R", "I", "E", "L", "J",
+            "E", "S", "M", "E", "R", "A", "L", "D", "A"]
+    numbers = [17, 4, 1, 20, 12, 7, 9, 27, 18, 23, 8, 7, 32]
