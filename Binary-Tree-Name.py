@@ -81,3 +81,13 @@ class BinarySearchTreeNode:
         if val < self.data:  # finding the value if the value is less than the data
             if self.left:
                 self.left = self.left.delete(val)  # record the deleted value
+        elif val > self.data:
+            if self.right:
+                self.right = self.right.delete(val)
+        else:
+            if self.left is None and self.right is None:  # if the element doesn't exist and return none
+                return None
+            elif self.left is None:
+                return self.right
+            elif self.right is None:
+                return self.left
