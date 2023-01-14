@@ -119,3 +119,6 @@ if __name__ == '__main__':
     print("-" * 60)
     print("My Name: ", name)
     print("The Ascending order of My Name: ", name_tree.in_order_traversal())
+    print("U is in the list? ----->", name_tree.search("U"))
+    print("B is in the list? ----->", name_tree.search("B"))
+    print("E is in the list? ----->", name_tree.search("E"))
