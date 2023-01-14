@@ -148,3 +148,5 @@ if __name__ == '__main__':
     print("After deleting Number 20. The Updated List are: ", numbers_tree.in_order_traversal())
     numbers_tree.delete(1)
     print("After deleting Number 31. The Updated List are: ", numbers_tree.in_order_traversal())
+    print("After deleting a Number, the Minimum value is now : ", numbers_tree.find_min())
+    print("After deleting a Number, the Maximum value is now : ", numbers_tree.find_max())
