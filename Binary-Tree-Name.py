@@ -144,3 +144,7 @@ if __name__ == '__main__':
     print("The Current Maximum value is:", numbers_tree.find_max())
     print("Pre order traversal of the list:", numbers_tree.pre_order_traversal())
     print("Post order traversal of the list:", numbers_tree.post_order_traversal())
+    numbers_tree.delete(32)
+    print("After deleting Number 20. The Updated List are: ", numbers_tree.in_order_traversal())
+    numbers_tree.delete(1)
+    print("After deleting Number 31. The Updated List are: ", numbers_tree.in_order_traversal())
