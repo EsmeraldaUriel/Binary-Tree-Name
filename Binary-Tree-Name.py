@@ -35,3 +35,7 @@ class BinarySearchTreeNode:
             else:
                 return False
 
+    def in_order_traversal(self):
+        elements = []  # to fill the elements in the binary
+        if self.left:  # visit the left tree
+            elements += self.left.in_order_traversal()
