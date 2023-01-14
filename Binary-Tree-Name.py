@@ -137,3 +137,6 @@ if __name__ == '__main__':
     print("-" * 60)
     print("My Chosen Number: ", numbers)
     print("The Ascending order of My Chosen Number: ", numbers_tree.in_order_traversal())
+    print("20 is in the list? ----->", numbers_tree.search(20))
+    print("25 is in the list? ----->", numbers_tree.search(25))
+    print("13 is in the list? ----->", numbers_tree.search(13))
