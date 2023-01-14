@@ -142,3 +142,5 @@ if __name__ == '__main__':
     print("13 is in the list? ----->", numbers_tree.search(13))
     print("The Current Minimum value is :", numbers_tree.find_min())
     print("The Current Maximum value is:", numbers_tree.find_max())
+    print("Pre order traversal of the list:", numbers_tree.pre_order_traversal())
+    print("Post order traversal of the list:", numbers_tree.post_order_traversal())
