@@ -114,3 +114,8 @@ if __name__ == '__main__':
     numbers = [17, 4, 1, 20, 12, 7, 9, 27, 18, 23, 8, 7, 32]
     name_tree = build_tree(name)
     numbers_tree = build_tree(numbers)
+    print("-"*60)
+    print(" "*20 + "BINARY TREE OF MY NAME")
+    print("-" * 60)
+    print("My Name: ", name)
+    print("The Ascending order of My Name: ", name_tree.in_order_traversal())
