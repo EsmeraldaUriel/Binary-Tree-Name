@@ -122,3 +122,5 @@ if __name__ == '__main__':
     print("U is in the list? ----->", name_tree.search("U"))
     print("B is in the list? ----->", name_tree.search("B"))
     print("E is in the list? ----->", name_tree.search("E"))
+    print("The Current Minimum value is :", name_tree.find_min())
+    print("The Current Maximum value is:", name_tree.find_max())
