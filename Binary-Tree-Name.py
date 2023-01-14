@@ -19,4 +19,19 @@ class BinarySearchTreeNode:
             else:
                 self.right = BinarySearchTreeNode(data)
 
+    def search(self, val):
+        if self.data == val:  # used for searching
+            return True
+
+        if val < self.data:  # the value might be in left subtree
+            if self.left:  # checking if the value is actually at left subtree
+                return self.left.search(val)  # it will do recursion
+            else:
+                return False
+
+        if val > self.data:  # the value might be in the right subtree
+            if self.right:  # checking if the value is actually at right subtree
+                return self.right.search(val)  # it will do recursion
+            else:
+                return False
 
