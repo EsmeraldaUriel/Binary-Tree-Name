@@ -126,3 +126,7 @@ if __name__ == '__main__':
     print("The Current Maximum value is:", name_tree.find_max())
     print("Pre order traversal of the list:", name_tree.pre_order_traversal())
     print("Post order traversal of the list:", name_tree.post_order_traversal())
+    name_tree.delete("A")
+    print("After deleting letter A. The Updated List are: ", name_tree.in_order_traversal())
+    name_tree.delete("R")
+    print("After deleting letter R. The Updated List are: ", name_tree.in_order_traversal())
