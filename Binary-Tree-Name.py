@@ -39,3 +39,11 @@ class BinarySearchTreeNode:
         elements = []  # to fill the elements in the binary
         if self.left:  # visit the left tree
             elements += self.left.in_order_traversal()
+
+        elements.append(self.data)  # visit the base node
+
+        if self.right:  # visit the right tree
+            elements += self.right.in_order_traversal()
+
+        return elements
+
