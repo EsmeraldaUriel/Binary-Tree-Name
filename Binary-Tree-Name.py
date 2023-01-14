@@ -124,3 +124,5 @@ if __name__ == '__main__':
     print("E is in the list? ----->", name_tree.search("E"))
     print("The Current Minimum value is :", name_tree.find_min())
     print("The Current Maximum value is:", name_tree.find_max())
+    print("Pre order traversal of the list:", name_tree.pre_order_traversal())
+    print("Post order traversal of the list:", name_tree.post_order_traversal())
