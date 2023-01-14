@@ -140,3 +140,5 @@ if __name__ == '__main__':
     print("20 is in the list? ----->", numbers_tree.search(20))
     print("25 is in the list? ----->", numbers_tree.search(25))
     print("13 is in the list? ----->", numbers_tree.search(13))
+    print("The Current Minimum value is :", numbers_tree.find_min())
+    print("The Current Maximum value is:", numbers_tree.find_max())
